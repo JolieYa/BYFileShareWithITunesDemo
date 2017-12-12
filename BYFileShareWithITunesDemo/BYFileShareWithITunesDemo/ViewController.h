@@ -13,3 +13,9 @@
 
 @end
 
+
+@interface FileModel:NSObject
+@property (nonatomic, copy) NSString *fileName;
+@property (nonatomic, copy) NSString *filePath;
+
+@end
